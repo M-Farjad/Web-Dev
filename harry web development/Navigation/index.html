@@ -1,0 +1,134 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <style>
+      * {
+        font-family: "Ubuntu Mono", monospace;
+      }
+      .navbar {
+        background-color: rgb(207, 100, 182);
+      }
+      .navbar .logo {
+        float: left;
+        margin-left: 25px;
+        margin-top: 10px;
+        font-size: 18px;
+        /* border: 2px solid black; */
+      }
+      .navbar ul {
+        overflow: auto;
+        margin-left: 85px;
+      }
+      .navbar li {
+        list-style: none;
+        float: left;
+        margin: 17px 0px;
+        border-left: 2px solid black;
+      }
+      /* .navbar ul li a:hover{
+            background-color: rgb(230, 145, 210);
+        } */
+      .navbtn:hover {
+        background-color: rgb(230, 145, 210);
+        border-radius: 10px;
+      }
+      .search {
+        float: right;
+        margin: 14px 20px;
+        background-color: rgb(183, 45, 68);
+        border-radius: 21px;
+        border: 2px solid black;
+      }
+      input {
+        border-radius: 21px;
+        padding-left: 5px;
+      }
+      .navbar li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        padding: 14px 9px;
+      }
+      .navbar .logo a i {
+        margin: 0;
+        float: left;
+        border: 2px solid black;
+        border-radius: 12px;
+        letter-spacing: 0.09em;
+      }
+      .navbar .logo a i:hover {
+        background-color: rgb(230, 145, 210);
+      }
+      .logo a {
+        text-decoration: none;
+        color: black;
+      }
+      /* .logo a i{
+            /* border: 2px solid black; 
+        } */
+      .navbar ul a i{
+        width: 400px;
+        font-size: 25px;
+        margin-top: 15px;
+        box-sizing: border-box;
+        float: right;
+        color: black;
+        display: flex;
+        padding-left: 313px;
+      }
+      #face i{
+        margin: 0;
+        padding: 0;
+      }
+      #insta i{
+        margin: 0px 0px;
+        padding: 0px 0px;
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/d46ad3dc76.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#" class="logo">
+            <i class="fa fa-rocket" aria-hidden="true">Jester</i>
+          </a>
+        </div>
+        <ul>
+          <li id="home"><a href="#" class="navbtn">Home</a></li>
+          <li><a href="#" class="navbtn">About</a></li>
+          <li><a href="#" class="navbtn">Services</a></li>
+          <li><a href="#" class="navbtn">Contact Us</a></li>
+          <a href="https://www.pinterest.com"><i class="fa fa-pinterest" aria-hidden="true"></i>
+          </a>
+          <!-- <a href="https://www.facebook.com" id="face"><i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i>
+          </a> -->
+          <div class="search">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Search this Website"
+              style="color: grey"
+            />
+          </div>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

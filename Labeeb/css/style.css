@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+:root{
+    --bg-black-900:#f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d;
+    --text-black-700:#46455d;
+}
+.row img{
+    height: 30px;
+    margin: 10px 5px;
+}
+body{
+    line-height: 1.5;   
+    font-size: 16px;
+    font-family: 'Poppins' sans-serif;
+    margin: 0 0;
+}
+
+.container{
+    background-color: var(--text-black-700);
+    height: 70px;
+}
+.padd-15{
+    
+    background-color: red;
+}
+i{
+    font-size: 20px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 15px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid var(--text-black-900);
+    display: inline-block;
+    white-space: nowrap;
+    background: var(--text-black-700);
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    transform: scale(1.05);
+}

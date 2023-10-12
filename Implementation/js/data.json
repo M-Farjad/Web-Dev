@@ -1,0 +1,29 @@
+{
+    "data": [{
+            "id": "0GJcws44NSPsDHAuxJhW",
+            "infected": 1310,
+            "recovered": 58,
+            "latitude": 41.066666,
+            "pop": 5827000,
+            "Longitude": 14.333333,
+            "name": "Campania",
+            "country": "IT",
+            "lastUpdated": "2020-03-27T08:16:02.0372",
+            "dead": 83,
+            "sick": 1169
+        },
+        {
+            "infected": 2,
+            "recovered": 0,
+            "latitude": 20.9517,
+            "pop": 45990000,
+            "Longitude": 85.0985,
+            "name": "Odisha",
+            "country": "IN",
+            "LastUpdated": "2020-03-27T08:26:07.125Z",
+            "dead": 0,
+            "id": "0VG7S6aa4eSo59fL9J0",
+            "sick": 2
+        }
+    ]
+}

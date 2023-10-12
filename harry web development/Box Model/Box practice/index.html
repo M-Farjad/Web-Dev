@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignments</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(144, 127, 173);
+        }
+        .container{
+            border: 5px solid burlywood;
+            width: 100%;
+            border-radius: 13px;
+            /* background-color: rgb(255, 0, 111); */
+            display: flex;
+            flex-direction: column;
+            flex-wrap:wrap;
+            /*
+            word-spacing: 3px;
+             */
+            border-spacing: 10px;
+        }
+        .padd-15{
+            padding: 15px 15px 15px 15px;
+        }
+        .marg-10{
+            margin: 10px 10px 10px 10px;
+        }
+        .item{
+            /* background-color: red; */
+            border: 10px solid rgb(23, 188, 191);
+            border-radius: 23px;
+            line-height: 1.3em;
+        }
+        h3{
+            background-color: bisque;
+            border-radius: 23px;
+            text-align: center;
+        }
+        #fruitPara{
+            background-color: aqua;
+            border-radius: 12px;
+        }
+        #computerPara{
+            background-color: rgb(224, 237, 175);
+            border-radius: 12px;
+        }
+        #stationaryPara{
+            background-color: rgb(219, 139, 189);
+            border-radius: 12px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container padd-15 marg-10">
+        <div id="fruits" class="item marg-10 padd-15">
+            <h3 class="marg-10 padd-15">Fruits</h3>
+            <p id="fruitPara" class="marg-10 padd-15">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde sed ut minus neque tempore porro exercitationem omnis totam, delectus reiciendis fuga autem eligendi ipsam reprehenderit recusandae quas error. Repellendus, sed!</p>
+        </div>
+        <div id="computer" class="item marg-10 padd-15">
+            <h3 class="marg-10 padd-15">Computers</h3>
+            <p id="computerPara" class="marg-10 padd-15">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde sed ut minus neque tempore porro exercitationem omnis totam, delectus reiciendis fuga autem eligendi ipsam reprehenderit recusandae quas error. Repellendus, sed!</p>
+        </div>
+        <div id="stationary" class="item marg-10 padd-15">
+            <h3 class="marg-10 padd-15">Stationary</h3>
+            <p id="stationaryPara" class="marg-10 padd-15">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde sed ut minus neque tempore porro exercitationem omnis totam, delectus reiciendis fuga autem eligendi ipsam reprehenderit recusandae quas error. Repellendus, sed!</p>
+        </div>
+    </div>
+</body>
+</html>
