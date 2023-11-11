@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors and more Designing</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+        
+    <style>
+        .container{
+            box-sizing: border-box;
+            background-color: antiquewhite;
+            border: 3px solid burlywood;
+            padding: 32px;
+            margin: 32px auto;
+            width: 633px;
+        }
+        *{
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 23px;
+            font-family: 'Ubuntu Mono', monospace;
+        } 
+        .btn{
+            background-color: rgb(255, 246, 68);
+            padding: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            margin: auto;
+            width: max-content;
+            float: left;
+            border: 1px solid burlywood;
+        }
+        a{
+            text-decoration: none;
+        }
+        .btn:hover{
+            background-color: rgb(231, 153, 153);
+        }
+        a:hover{
+            background-color: rgb(231, 153, 153);
+        }
+        a:active{
+            background-color: aqua;
+        }
+        .btn{
+            margin-left: 3%;
+        }
+        .btn:active{
+            background-color: aqua;
+        }
+        /* .btn:visited{
+            background-color: rgb(165, 149, 20);
+            
+        } */
+        .btn span{
+            font-style: bold;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Hello World
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non similique velit mollitia odio doloribus, libero atque maxime voluptate sequi quae, dolorem unde molestias quos pariatur nisi voluptatem ullam totam eligendi earum illum!
+        </p>
+        <a href="#" class="btn">
+            <span>
+                Download Cv
+            </span>
+        </a>
+        <div class="btn">
+            Contact Us
+        </div>
+    </div>
+</body>
+</html>

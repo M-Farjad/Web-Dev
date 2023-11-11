@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: auto;
+    height: 100vh;
+}

@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .container{
+            margin: 30px;
+            border: 3px solid black;
+            height: 3444px;
+        }
+      .box {
+        display: inline-block;
+        border: 2px solid rebeccapurple;
+        background-color: aqua;
+        width: 150px;
+        height: 150px;
+        margin: 2px;
+      }
+      /* position: relative,absolute,static(default); */
+      /* relative : relative to its normal position and will leave a gap at its normal position */
+
+      #box2{
+        position: relative;
+        right: 20px;
+        top: 20px;
+      }
+      /* absolute : will move according to its parent position and will move in that praticular direction instead of being giving margin to that position */
+      #box3 {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+      }
+      /* fixed : will fix the position of the container and it will not move from its position */
+      #box1{
+        position: fixed;
+        /* position: sticky; */
+        left: 80px;
+        top: 15px;
+      }
+      #box4{
+        position: sticky;
+        top: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="box1">1</div>
+      <div class="box" id="box2">2</div>
+      <div class="box" id="box3">3</div>
+      <div class="box" id="box4">4</div>
+    </div>
+  </body>
+</html>
