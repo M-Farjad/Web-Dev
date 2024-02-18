@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8"><!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> Internet Explorer compatibility
+    <meta name="description" content="This is a description of the web page"> <!-- Description for search engines -->
+    <meta name="keywords" content="HTML, CSS, JavaScript"> <!-- Keywords for search engines -->
+    <meta name="author" content="Your Name"> <!-- Author name -->
+    <!-- 
+        Explanation of each meta tag:
+    Character Encoding (charset): <meta charset="UTF-8"> sets the character encoding for the webpage. UTF-8 is the most common and recommended.
+
+    Viewport: <meta name="viewport" content="width=device-width, initial-scale=1.0"> sets the viewport to scale the page to the screen width, useful for responsive design.
+
+    IE Compatibility: <meta http-equiv="X-UA-Compatible" content="ie=edge"> specifies that the page should be rendered using the latest rendering engine available on Internet Explorer.
+
+    Description: <meta name="description" content="This is a description of the web page"> provides a brief description of the webpage, which search engines may use in search results.
+
+    Keywords: <meta name="keywords" content="HTML, CSS, JavaScript"> specifies keywords for the webpage, which were historically used by search engines but are less relevant today.
+
+    Author: <meta name="author" content="Your Name"> indicates the name of the author of the webpage.
+     -->
+
+    <!-- !Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Form - Guide</title>
+</head>
+
+<body>
+    <form action="/submit" method="post">
+        <!-- Text input for username -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required autofocus>
+        <br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- Radio buttons for gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Checkbox for terms and conditions -->
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I accept the terms and conditions</label>
+        <br><br>
+
+        <!-- Select dropdown for country -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="pakistan">Pakistan</option>
+        </select>
+        <br><br>
+
+        <!-- Textarea for address -->
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <!-- Button -->
+        <button type="button">Button</button>
+        <br><br>
+
+        <!-- Color input -->
+        <label for="color-input">Color Input:</label>
+        <input type="color" id="color-input" name="color-input">
+        <br><br>
+
+        <!-- Date input -->
+        <label for="date-input">Date Input:</label>
+        <input type="date" id="date-input" name="date-input">
+        <br><br>
+
+        <!-- Datetime-local input -->
+        <label for="datetime-input">Datetime Input:</label>
+        <input type="datetime-local" id="datetime-input" name="datetime-input">
+        <br><br>
+
+        <!-- Email input -->
+        <label for="email-input">Email Input:</label>
+        <input type="email" id="email-input" name="email-input">
+        <br><br>
+
+        <!-- File input -->
+        <label for="file-input">File Input:</label>
+        <input type="file" id="file-input" name="file-input">
+        <br><br>
+
+        <!-- Hidden input -->
+        <input type="hidden" id="hidden-input" name="hidden-input" value="hidden-value">
+        <br><br>
+
+        <!-- Image input -->
+        <input type="image"
+            src="https://images.unsplash.com/photo-1707327956851-30a531b70cda?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Submit" height="200px">
+        <br><br>
+
+        <!-- Month input -->
+        <label for="month-input">Month Input:</label>
+        <input type="month" id="month-input" name="month-input">
+        <br><br>
+
+        <!-- Number input -->
+        <label for="number-input">Number Input:</label>
+        <input type="number" id="number-input" name="number-input">
+        <br><br>
+
+        <!-- Range input -->
+        <label for="range-input">Range Input:</label>
+        <input type="range" id="range-input" name="range-input">
+        <br><br>
+
+        <!-- Search input -->
+        <label for="search-input">Search Input:</label>
+        <input type="search" id="search-input" name="search-input">
+        <br><br>
+
+        <!-- Tel input -->
+        <label for="tel-input">Tel Input:</label>
+        <input type="tel" id="tel-input" name="tel-input">
+        <br><br>
+
+        <!-- Time input -->
+        <label for="time-input">Time Input:</label>
+        <input type="time" id="time-input" name="time-input">
+        <br><br>
+
+        <!-- URL input -->
+        <label for="url-input">URL Input:</label>
+        <input type="url" id="url-input" name="url-input">
+        <br><br>
+
+        <!-- Week input -->
+        <label for="week-input">Week Input:</label>
+        <input type="week" id="week-input" name="week-input">
+        <br><br>
+
+        <!-- Reset button -->
+        <input type="reset" value="Reset">
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
